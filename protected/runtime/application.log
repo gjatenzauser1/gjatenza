@@ -1,0 +1,664 @@
+2013/10/08 17:19:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/atenza/www/gjatenza/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gjatenza/index.php?r=gii
+---
+2013/10/08 17:26:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/atenza/www/gjatenza/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gjatenza/index.php?r=gii
+---
+2013/10/08 17:27:21 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /home/atenza/yii-1.1.14.f0fee9/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('')
+#2 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/atenza/www/gjatenza/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gjatenza/index.php?r=gii
+---
+2013/10/08 18:37:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post".' in /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('post')
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/atenza/www/gjatenza/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gjatenza/index.php?r=post
+---
+2013/10/08 18:39:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Post".' in /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('Post')
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/atenza/www/gjatenza/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gjatenza/index.php?r=Post
+---
+2013/10/08 18:39:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post".' in /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('post')
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/atenza/www/gjatenza/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gjatenza/index.php?r=post
+---
+2013/10/08 19:00:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php:483
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(270): CController->missingAction('create')
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('create')
+#2 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('page/create')
+#3 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/atenza/www/gjatenza/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gjatenza/index.php?r=page/create
+HTTP_REFERER=http://legacy-on.jp/gjatenza/index.php?r=page/view&id=1
+---
+2013/10/08 19:08:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/atenza/www/gjatenza/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gjatenza/index.php?r=gii
+---
+2014/04/27 18:33:57 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /home/atenza/yii-1.1.14.f0fee9/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('')
+#2 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/atenza/www/gjatenza/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gjatenza/index.php?r=gii
+---
+2014/04/27 18:35:22 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /home/atenza/yii-1.1.14.f0fee9/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('')
+#2 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/atenza/www/gjatenza/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gjatenza/index.php?r=gii
+---
+2014/04/27 18:35:28 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /home/atenza/yii-1.1.14.f0fee9/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('')
+#2 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/atenza/www/gjatenza/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gjatenza/index.php?r=gii
+---
+2014/04/27 19:26:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mainstory".' in /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('mainstory')
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/atenza/www/gjatenza/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gjatenza/index.php?r=mainstory
+---
+2014/04/27 19:37:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mainstory".' in /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('mainstory')
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/atenza/www/gjatenza/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gjatenza/index.php?r=mainstory
+---
+2014/04/27 19:37:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mainstory".' in /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('mainstory')
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/atenza/www/gjatenza/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gjatenza/index.php?r=mainstory
+---
+2014/04/28 16:15:17 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'story' in 'where clause'. The SQL statement executed was: SELECT * FROM `page` `t` WHERE story=:story.
+in /home/atenza/www/gjatenza/protected/controllers/MainStoryController.php (54)
+in /home/atenza/www/gjatenza/index.php (13)
+2014/04/28 16:15:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'story' in 'where clause'. The SQL statement executed was: SELECT * FROM `page` `t` WHERE story=:story' in /home/atenza/yii-1.1.14.f0fee9/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 /home/atenza/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /home/atenza/www/gjatenza/protected/controllers/MainStoryController.php(54): CActiveRecord->findAll('story=:story', Array)
+#4 [internal function]: MainStoryController->actionView('1')
+#5 /home/atenza/yii-1.1.14.f0fee9/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(MainStoryController), Array)
+#6 /home/atenza/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(MainStoryController), Object(ReflectionMethod), Array)
+#7 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#14 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('view')
+#16 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('mainStory/view')
+#17 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /home/atenza/www/gjatenza/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/gjatenza/index.php?r=mainStory/view&id=1
+HTTP_REFERER=http://legacy-on.jp/gjatenza/index.php?r=MainStory
+---
+2014/04/28 16:46:42 [error] [exception.CException] exception 'CException' with message 'Please specify the "data" property.' in /home/atenza/yii-1.1.14.f0fee9/framework/zii/widgets/CDetailView.php:137
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/web/CBaseController.php(147): CDetailView->init()
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.CDe...', Array)
+#2 /home/atenza/www/gjatenza/protected/views/mainStory/view.php(44): CBaseController->widget('zii.widgets.CDe...', Array)
+#3 /home/atenza/yii-1.1.14.f0fee9/framework/web/CBaseController.php(126): require('/home/atenza/ww...')
+#4 /home/atenza/yii-1.1.14.f0fee9/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/atenza/ww...', Array, true)
+#5 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(869): CBaseController->renderFile('/home/atenza/ww...', Array, true)
+#6 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#7 /home/atenza/www/gjatenza/protected/controllers/MainStoryController.php(60): CController->render('view', Array)
+#8 [internal function]: MainStoryController->actionView('1')
+#9 /home/atenza/yii-1.1.14.f0fee9/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(MainStoryController), Array)
+#10 /home/atenza/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(MainStoryController), Object(ReflectionMethod), Array)
+#11 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#14 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#18 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('view')
+#20 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('mainStory/view')
+#21 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#22 /home/atenza/www/gjatenza/index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/gjatenza/index.php?r=mainStory/view&id=1
+HTTP_REFERER=http://legacy-on.jp/gjatenza/index.php?r=MainStory
+---
+2014/04/28 19:53:51 [error] [exception.CException] exception 'CException' with message 'Property "MainStoryController.adminEmail" is not defined.' in /home/atenza/yii-1.1.14.f0fee9/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/atenza/www/gjatenza/protected/views/mainStory/view.php(24): CComponent->__get('adminEmail')
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/web/CBaseController.php(126): require('/home/atenza/ww...')
+#2 /home/atenza/yii-1.1.14.f0fee9/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/atenza/ww...', Array, true)
+#3 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(869): CBaseController->renderFile('/home/atenza/ww...', Array, true)
+#4 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#5 /home/atenza/www/gjatenza/protected/controllers/MainStoryController.php(60): CController->render('view', Array)
+#6 [internal function]: MainStoryController->actionView('1')
+#7 /home/atenza/yii-1.1.14.f0fee9/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(MainStoryController), Array)
+#8 /home/atenza/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(MainStoryController), Object(ReflectionMethod), Array)
+#9 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#12 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#16 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('view')
+#18 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('mainStory/view')
+#19 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /home/atenza/www/gjatenza/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/gjatenza/index.php?r=mainStory/view&id=1
+HTTP_REFERER=http://legacy-on.jp/gjatenza/index.php?r=MainStory
+---
+2014/04/28 20:15:38 [error] [exception.CException] exception 'CException' with message 'Property "MainStory.main_massage" is not defined.' in /home/atenza/yii-1.1.14.f0fee9/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(145): CComponent->__get('main_massage')
+#1 /home/atenza/www/gjatenza/protected/views/mainStory/view.php(17): CActiveRecord->__get('main_massage')
+#2 /home/atenza/yii-1.1.14.f0fee9/framework/web/CBaseController.php(126): require('/home/atenza/ww...')
+#3 /home/atenza/yii-1.1.14.f0fee9/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/atenza/ww...', Array, true)
+#4 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(869): CBaseController->renderFile('/home/atenza/ww...', Array, true)
+#5 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#6 /home/atenza/www/gjatenza/protected/controllers/MainStoryController.php(60): CController->render('view', Array)
+#7 [internal function]: MainStoryController->actionView('1')
+#8 /home/atenza/yii-1.1.14.f0fee9/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(MainStoryController), Array)
+#9 /home/atenza/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(MainStoryController), Object(ReflectionMethod), Array)
+#10 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#17 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('view')
+#19 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('mainStory/view')
+#20 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /home/atenza/www/gjatenza/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/gjatenza/index.php?r=mainStory/view&id=1
+HTTP_REFERER=http://legacy-on.jp/gjatenza/index.php?r=MainStory
+---
+2014/04/28 20:24:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "controllers/PageController".' in /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('controllers/Pag...')
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/atenza/www/gjatenza/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gjatenza/index.php?r=controllers/PageController&id=3
+HTTP_REFERER=http://legacy-on.jp/gjatenza/index.php?r=mainStory/view&id=1
+---
+2014/04/28 20:24:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "controllers/PageController".' in /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('controllers/Pag...')
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/atenza/www/gjatenza/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gjatenza/index.php?r=controllers/PageController&id=1
+HTTP_REFERER=http://legacy-on.jp/gjatenza/index.php?r=mainStory/view&id=1
+---
+2014/04/28 20:25:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "controllers/PageController".' in /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('controllers/Pag...')
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/atenza/www/gjatenza/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gjatenza/index.php?r=controllers/PageController&id=3
+HTTP_REFERER=http://legacy-on.jp/gjatenza/index.php?r=mainStory/view&id=1
+---
+2014/04/28 20:25:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "controllers/PageController".' in /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('controllers/Pag...')
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/atenza/www/gjatenza/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/gjatenza/index.php?r=controllers/PageController&id=1
+HTTP_REFERER=http://legacy-on.jp/gjatenza/index.php?r=mainStory/view&id=1
+---
+2014/04/28 20:44:28 [error] [exception.CException] exception 'CException' with message 'Property "PageList.menu_img_url" is not defined.' in /home/atenza/yii-1.1.14.f0fee9/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(145): CComponent->__get('menu_img_url')
+#1 /home/atenza/www/gjatenza/protected/views/page/view.php(22): CActiveRecord->__get('menu_img_url')
+#2 /home/atenza/yii-1.1.14.f0fee9/framework/web/CBaseController.php(126): require('/home/atenza/ww...')
+#3 /home/atenza/yii-1.1.14.f0fee9/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/atenza/ww...', Array, true)
+#4 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(869): CBaseController->renderFile('/home/atenza/ww...', Array, true)
+#5 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#6 /home/atenza/www/gjatenza/protected/controllers/PageController.php(58): CController->render('view', Array)
+#7 [internal function]: PageController->actionView('3')
+#8 /home/atenza/yii-1.1.14.f0fee9/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(PageController), Array)
+#9 /home/atenza/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(PageController), Object(ReflectionMethod), Array)
+#10 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#17 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('view')
+#19 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('Page/view')
+#20 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /home/atenza/www/gjatenza/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/gjatenza/index.php?r=Page/view&id=3
+HTTP_REFERER=http://legacy-on.jp/gjatenza/index.php?r=mainStory/view&id=1
+---
+2014/04/28 23:07:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mainstory".' in /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/atenza/www/gjatenza/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/gjatenza/index.php
+---
+2014/04/28 23:38:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /home/atenza/www/gjatenza/protected/controllers/MainStoryController.php:86
+Stack trace:
+#0 /home/atenza/www/gjatenza/protected/controllers/MainStoryController.php(70): MainStoryController->loadModel(NULL)
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): MainStoryController->actionIndex()
+#2 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('')
+#11 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#12 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/atenza/www/gjatenza/index.php(14): CApplication->run()
+#14 {main}
+REQUEST_URI=/gjatenza/index.php
+HTTP_REFERER=http://legacy-on.jp/gjatenza/index.php
+---
+2014/04/28 23:38:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /home/atenza/www/gjatenza/protected/controllers/MainStoryController.php:86
+Stack trace:
+#0 /home/atenza/www/gjatenza/protected/controllers/MainStoryController.php(70): MainStoryController->loadModel(NULL)
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): MainStoryController->actionIndex()
+#2 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('')
+#11 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#12 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/atenza/www/gjatenza/index.php(14): CApplication->run()
+#14 {main}
+REQUEST_URI=/gjatenza/index.php
+---
+2014/04/28 23:56:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /home/atenza/www/gjatenza/protected/controllers/MainStoryController.php:86
+Stack trace:
+#0 /home/atenza/www/gjatenza/protected/controllers/MainStoryController.php(70): MainStoryController->loadModel(NULL)
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): MainStoryController->actionIndex()
+#2 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('')
+#11 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#12 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/atenza/www/gjatenza/index.php(14): CApplication->run()
+#14 {main}
+REQUEST_URI=/gjatenza/index.php
+---
+2014/04/29 00:02:40 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'deleteFlag' in 'where clause'. The SQL statement executed was: SELECT * FROM `main_story` `t` WHERE deleteFlag=:deleteFlag.
+in /home/atenza/www/gjatenza/protected/controllers/MainStoryController.php (68)
+in /home/atenza/www/gjatenza/index.php (14)
+2014/04/29 00:02:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'deleteFlag' in 'where clause'. The SQL statement executed was: SELECT * FROM `main_story` `t` WHERE deleteFlag=:deleteFlag' in /home/atenza/yii-1.1.14.f0fee9/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 /home/atenza/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /home/atenza/www/gjatenza/protected/controllers/MainStoryController.php(68): CActiveRecord->findAll('deleteFlag=:del...', Array)
+#4 /home/atenza/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): MainStoryController->actionIndex()
+#5 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#8 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#12 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('')
+#14 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#15 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#16 /home/atenza/www/gjatenza/index.php(14): CApplication->run()
+#17 {main}
+REQUEST_URI=/gjatenza/index.php
+---
+2014/04/29 00:03:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /home/atenza/www/gjatenza/protected/controllers/MainStoryController.php:86
+Stack trace:
+#0 /home/atenza/www/gjatenza/protected/controllers/MainStoryController.php(70): MainStoryController->loadModel(NULL)
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): MainStoryController->actionIndex()
+#2 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('')
+#11 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#12 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/atenza/www/gjatenza/index.php(14): CApplication->run()
+#14 {main}
+REQUEST_URI=/gjatenza/index.php
+---
+2014/04/29 00:04:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /home/atenza/www/gjatenza/protected/controllers/MainStoryController.php:86
+Stack trace:
+#0 /home/atenza/www/gjatenza/protected/controllers/MainStoryController.php(70): MainStoryController->loadModel(NULL)
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(49): MainStoryController->actionIndex()
+#2 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('')
+#11 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#12 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/atenza/www/gjatenza/index.php(14): CApplication->run()
+#14 {main}
+REQUEST_URI=/gjatenza/index.php
+---
+2014/04/29 00:23:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mainstory/index".' in /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('mainstory/index')
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/atenza/www/gjatenza/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/gjatenza/index.php?r=mainstory/index
+HTTP_REFERER=http://legacy-on.jp/gjatenza/index.php
+---
+2014/08/31 23:59:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php:483
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(270): CController->missingAction('view')
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('view')
+#2 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('Page/view')
+#3 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/atenza/www/gjatenza/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/gjatenza/index.php?r=Page/view&id=3
+HTTP_REFERER=http://legacy-on.jp/gjatenza/index.php?r=mainStory/view&id=1
+---
+2014/09/01 16:29:37 [error] [exception.CException] exception 'CException' with message 'Property "MapAffiliateGroup.group_name" is not defined.' in /home/atenza/yii-1.1.14.f0fee9/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(145): CComponent->__get('group_name')
+#1 /home/atenza/www/gjatenza/protected/views/page/view.php(36): CActiveRecord->__get('group_name')
+#2 /home/atenza/yii-1.1.14.f0fee9/framework/web/CBaseController.php(126): require('/home/atenza/ww...')
+#3 /home/atenza/yii-1.1.14.f0fee9/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/atenza/ww...', Array, true)
+#4 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(869): CBaseController->renderFile('/home/atenza/ww...', Array, true)
+#5 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#6 /home/atenza/www/gjatenza/protected/controllers/PageController.php(65): CController->render('view', Array)
+#7 [internal function]: PageController->actionView('3')
+#8 /home/atenza/yii-1.1.14.f0fee9/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(PageController), Array)
+#9 /home/atenza/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(PageController), Object(ReflectionMethod), Array)
+#10 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#17 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('view')
+#19 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('Page/view')
+#20 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /home/atenza/www/gjatenza/index.php(14): CApplication->run()
+#22 {main}
+REQUEST_URI=/gjatenza/index.php?r=Page/view&id=3
+HTTP_REFERER=http://legacy-on.jp/gjatenza/index.php?r=mainStory/view&id=1
+---
+2014/09/01 16:34:44 [error] [exception.CException] exception 'CException' with message 'Property "MapAffiliateGroup.create_datetime" is not defined.' in /home/atenza/yii-1.1.14.f0fee9/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(145): CComponent->__get('create_datetime')
+#1 /home/atenza/www/gjatenza/protected/views/page/view.php(36): CActiveRecord->__get('create_datetime')
+#2 /home/atenza/yii-1.1.14.f0fee9/framework/web/CBaseController.php(126): require('/home/atenza/ww...')
+#3 /home/atenza/yii-1.1.14.f0fee9/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/atenza/ww...', Array, true)
+#4 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(869): CBaseController->renderFile('/home/atenza/ww...', Array, true)
+#5 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#6 /home/atenza/www/gjatenza/protected/controllers/PageController.php(65): CController->render('view', Array)
+#7 [internal function]: PageController->actionView('3')
+#8 /home/atenza/yii-1.1.14.f0fee9/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(PageController), Array)
+#9 /home/atenza/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(PageController), Object(ReflectionMethod), Array)
+#10 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#17 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('view')
+#19 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('Page/view')
+#20 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /home/atenza/www/gjatenza/index.php(14): CApplication->run()
+#22 {main}
+REQUEST_URI=/gjatenza/index.php?r=Page/view&id=3
+HTTP_REFERER=http://legacy-on.jp/gjatenza/index.php?r=mainStory/view&id=1
+---
+2014/09/01 16:42:27 [error] [exception.CDbException] exception 'CDbException' with message 'The relation "affiliate" in active record class "Affiliate" is specified with an invalid foreign key. The format of the foreign key must be "joinTable(fk1,fk2,...)".' in /home/atenza/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php:2315
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(2292): CManyManyRelation->initJunctionData()
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/db/ar/CActiveFinder.php(540): CManyManyRelation->getJunctionTableName()
+#2 /home/atenza/yii-1.1.14.f0fee9/framework/db/ar/CActiveFinder.php(500): CJoinElement->applyLazyCondition(Object(CJoinQuery), Object(MapAffiliateGroup))
+#3 /home/atenza/yii-1.1.14.f0fee9/framework/db/ar/CActiveFinder.php(163): CJoinElement->lazyFind(Object(MapAffiliateGroup))
+#4 /home/atenza/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(281): CActiveFinder->lazyFind(Object(MapAffiliateGroup))
+#5 /home/atenza/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(143): CActiveRecord->getRelated('affiliate')
+#6 /home/atenza/www/gjatenza/protected/views/page/view.php(37): CActiveRecord->__get('affiliate')
+#7 /home/atenza/yii-1.1.14.f0fee9/framework/web/CBaseController.php(126): require('/home/atenza/ww...')
+#8 /home/atenza/yii-1.1.14.f0fee9/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/atenza/ww...', Array, true)
+#9 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(869): CBaseController->renderFile('/home/atenza/ww...', Array, true)
+#10 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#11 /home/atenza/www/gjatenza/protected/controllers/PageController.php(65): CController->render('view', Array)
+#12 [internal function]: PageController->actionView('3')
+#13 /home/atenza/yii-1.1.14.f0fee9/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(PageController), Array)
+#14 /home/atenza/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(PageController), Object(ReflectionMethod), Array)
+#15 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#16 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#18 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#22 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('view')
+#24 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('Page/view')
+#25 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#26 /home/atenza/www/gjatenza/index.php(14): CApplication->run()
+#27 {main}
+REQUEST_URI=/gjatenza/index.php?r=Page/view&id=3
+HTTP_REFERER=http://legacy-on.jp/gjatenza/index.php?r=mainStory/view&id=1
+---
+2014/09/01 16:42:34 [error] [exception.CDbException] exception 'CDbException' with message 'The relation "affiliate" in active record class "Affiliate" is specified with an invalid foreign key. The format of the foreign key must be "joinTable(fk1,fk2,...)".' in /home/atenza/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php:2315
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(2292): CManyManyRelation->initJunctionData()
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/db/ar/CActiveFinder.php(540): CManyManyRelation->getJunctionTableName()
+#2 /home/atenza/yii-1.1.14.f0fee9/framework/db/ar/CActiveFinder.php(500): CJoinElement->applyLazyCondition(Object(CJoinQuery), Object(MapAffiliateGroup))
+#3 /home/atenza/yii-1.1.14.f0fee9/framework/db/ar/CActiveFinder.php(163): CJoinElement->lazyFind(Object(MapAffiliateGroup))
+#4 /home/atenza/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(281): CActiveFinder->lazyFind(Object(MapAffiliateGroup))
+#5 /home/atenza/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(143): CActiveRecord->getRelated('affiliate')
+#6 /home/atenza/www/gjatenza/protected/views/page/view.php(37): CActiveRecord->__get('affiliate')
+#7 /home/atenza/yii-1.1.14.f0fee9/framework/web/CBaseController.php(126): require('/home/atenza/ww...')
+#8 /home/atenza/yii-1.1.14.f0fee9/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/atenza/ww...', Array, true)
+#9 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(869): CBaseController->renderFile('/home/atenza/ww...', Array, true)
+#10 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#11 /home/atenza/www/gjatenza/protected/controllers/PageController.php(65): CController->render('view', Array)
+#12 [internal function]: PageController->actionView('3')
+#13 /home/atenza/yii-1.1.14.f0fee9/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(PageController), Array)
+#14 /home/atenza/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(PageController), Object(ReflectionMethod), Array)
+#15 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#16 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#18 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#22 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('view')
+#24 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('Page/view')
+#25 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#26 /home/atenza/www/gjatenza/index.php(14): CApplication->run()
+#27 {main}
+REQUEST_URI=/gjatenza/index.php?r=Page/view&id=3
+HTTP_REFERER=http://legacy-on.jp/gjatenza/index.php?r=mainStory/view&id=1
+---
+2014/09/01 16:42:35 [error] [exception.CDbException] exception 'CDbException' with message 'The relation "affiliate" in active record class "Affiliate" is specified with an invalid foreign key. The format of the foreign key must be "joinTable(fk1,fk2,...)".' in /home/atenza/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php:2315
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(2292): CManyManyRelation->initJunctionData()
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/db/ar/CActiveFinder.php(540): CManyManyRelation->getJunctionTableName()
+#2 /home/atenza/yii-1.1.14.f0fee9/framework/db/ar/CActiveFinder.php(500): CJoinElement->applyLazyCondition(Object(CJoinQuery), Object(MapAffiliateGroup))
+#3 /home/atenza/yii-1.1.14.f0fee9/framework/db/ar/CActiveFinder.php(163): CJoinElement->lazyFind(Object(MapAffiliateGroup))
+#4 /home/atenza/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(281): CActiveFinder->lazyFind(Object(MapAffiliateGroup))
+#5 /home/atenza/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(143): CActiveRecord->getRelated('affiliate')
+#6 /home/atenza/www/gjatenza/protected/views/page/view.php(37): CActiveRecord->__get('affiliate')
+#7 /home/atenza/yii-1.1.14.f0fee9/framework/web/CBaseController.php(126): require('/home/atenza/ww...')
+#8 /home/atenza/yii-1.1.14.f0fee9/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/atenza/ww...', Array, true)
+#9 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(869): CBaseController->renderFile('/home/atenza/ww...', Array, true)
+#10 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#11 /home/atenza/www/gjatenza/protected/controllers/PageController.php(65): CController->render('view', Array)
+#12 [internal function]: PageController->actionView('3')
+#13 /home/atenza/yii-1.1.14.f0fee9/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(PageController), Array)
+#14 /home/atenza/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(PageController), Object(ReflectionMethod), Array)
+#15 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#16 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#18 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#22 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('view')
+#24 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('Page/view')
+#25 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#26 /home/atenza/www/gjatenza/index.php(14): CApplication->run()
+#27 {main}
+REQUEST_URI=/gjatenza/index.php?r=Page/view&id=3
+HTTP_REFERER=http://legacy-on.jp/gjatenza/index.php?r=mainStory/view&id=1
+---
+2014/09/01 17:17:05 [error] [exception.CException] exception 'CException' with message 'Property "MapAffiliateGroup.group_name" is not defined.' in /home/atenza/yii-1.1.14.f0fee9/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/db/ar/CActiveRecord.php(145): CComponent->__get('group_name')
+#1 /home/atenza/www/gjatenza/protected/views/page/view.php(38): CActiveRecord->__get('group_name')
+#2 /home/atenza/yii-1.1.14.f0fee9/framework/web/CBaseController.php(126): require('/home/atenza/ww...')
+#3 /home/atenza/yii-1.1.14.f0fee9/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/atenza/ww...', Array, true)
+#4 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(869): CBaseController->renderFile('/home/atenza/ww...', Array, true)
+#5 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#6 /home/atenza/www/gjatenza/protected/controllers/PageController.php(65): CController->render('view', Array)
+#7 [internal function]: PageController->actionView('3')
+#8 /home/atenza/yii-1.1.14.f0fee9/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(PageController), Array)
+#9 /home/atenza/yii-1.1.14.f0fee9/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(PageController), Object(ReflectionMethod), Array)
+#10 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/atenza/yii-1.1.14.f0fee9/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(291): CFilterChain->run()
+#17 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('view')
+#19 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('Page/view')
+#20 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /home/atenza/www/gjatenza/index.php(14): CApplication->run()
+#22 {main}
+REQUEST_URI=/gjatenza/index.php?r=Page/view&id=3
+HTTP_REFERER=http://legacy-on.jp/gjatenza/index.php?r=mainStory/view&id=1
+---
+2014/09/01 18:39:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php:483
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(270): CController->missingAction('index')
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('index')
+#2 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('page/index')
+#3 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/atenza/www/gjatenza/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/gjatenza/index.php?r=page/index
+HTTP_REFERER=http://legacy-on.jp/gjatenza/index.php?r=Page/view&id=1
+---
+2014/09/01 18:40:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php:483
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(270): CController->missingAction('index')
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('index')
+#2 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('page/index')
+#3 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/atenza/www/gjatenza/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/gjatenza/index.php?r=page/index
+HTTP_REFERER=http://legacy-on.jp/gjatenza/index.php?r=Page/view&id=1
+---
+2014/09/01 19:27:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php:483
+Stack trace:
+#0 /home/atenza/yii-1.1.14.f0fee9/framework/web/CController.php(270): CController->missingAction('index')
+#1 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(282): CController->run('index')
+#2 /home/atenza/yii-1.1.14.f0fee9/framework/web/CWebApplication.php(141): CWebApplication->runController('page/index')
+#3 /home/atenza/yii-1.1.14.f0fee9/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/atenza/www/gjatenza/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/gjatenza/index.php?r=page/index
+HTTP_REFERER=http://legacy-on.jp/gjatenza/index.php?r=Page/view&id=4
+---
